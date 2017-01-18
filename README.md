@@ -5,18 +5,18 @@ Behavioral Cloning Project
 
 **Process** : The simulator records images from 3 cameras as shown below. The images are from various portions of the track and not taken simultaneously. Each image is of size 320 x 160 x 3.
 
-![](right.jpg)
+![](https://github.com/tvw0006/Behavioral_Cloning/blob/master/right.jpg)
 Right Camera Image
 
-![](left.jpg)
+![](https://github.com/tvw0006/Behavioral_Cloning/blob/master/left.jpg)
 Left Camera Image
 
-![](center.jpg)
+![](https://github.com/tvw0006/Behavioral_Cloning/blob/master/center.jpg)
 Center Camera Image
 
 The images are imported into a single array, converted to floats, resized and then cropped to size 46 x 200 x 3. The images are then shuffled and 20 percent of the data is used for validation. The images are normalized and preprocessed using an image data generator. A cropped image is shown below.
 
-![](cropped.png)
+![](https://github.com/tvw0006/Behavioral_Cloning/blob/master/cropped.png)
 
 
 
@@ -29,7 +29,7 @@ The model consists of 4 convolutional and 4 fully connected layers. Subsampling 
 
 An Adam optimizer is used for compilation with mean squared error loss, due to the model using regression, not classification. The learning rate was tested at several rates, but the initial rate of 0.001 provided satisfactory results. The neural network architecture is shown below.
 
-![](Architecture.JPG)
+![](https://github.com/tvw0006/Behavioral_Cloning/blob/master/Architecture.JPG)
 
 **Training** :
 
