@@ -6,17 +6,22 @@ Behavioral Cloning Project
 **Process** : The simulator records images from 3 cameras as shown below. The images are from various portions of the track and not taken simultaneously. Each image is of size 320 x 160 x 3.
 
 ![](https://github.com/tvw0006/Behavioral_Cloning/blob/master/right.jpg)
+
 Right Camera Image
 
 ![](https://github.com/tvw0006/Behavioral_Cloning/blob/master/left.jpg)
+
 Left Camera Image
 
 ![](https://github.com/tvw0006/Behavioral_Cloning/blob/master/center.jpg)
+
 Center Camera Image
 
 The images are imported into a single array, converted to floats, resized and then cropped to size 46 x 200 x 3. The images are then shuffled and 20 percent of the data is used for validation. The images are normalized and preprocessed using an image data generator. A cropped image is shown below.
 
 ![](https://github.com/tvw0006/Behavioral_Cloning/blob/master/cropped.png)
+
+Cropped Image
 
 
 
